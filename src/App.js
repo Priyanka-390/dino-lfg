@@ -34,7 +34,7 @@ function App() {
   return (
     <div className="App bg-[#0A4740]">
       {preloader && <Preloader />}
-      <div className='bg-[url("./assets/images/herobg.webp")] overflow-x-clip relative z-[1] bg-no-repeat bg-cover xl:min-h-screen sm:h-[730px] md:h-[874px] lg:h-[930px] h-[600px]'>
+      <div className='bg-[url("./assets/images/herobg.webp")] overflow-x-clip relative z-[4] bg-no-repeat bg-cover xl:min-h-screen sm:h-[730px] md:h-[874px] lg:h-[930px] h-[600px]'>
         <Mynav />
         <Herosec />
         <img
