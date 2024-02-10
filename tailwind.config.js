@@ -3,6 +3,9 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
+      backgroundSize: {
+        'size':'100% 100%'
+      },
       animation: {
         movebike: "bike 20s linear  infinite",
         headerbike2: "bike2 20s linear  infinite",
