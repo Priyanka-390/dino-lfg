@@ -29,7 +29,7 @@ const Utility = () => {
         >
           Utility and Usecase
         </h2>
-        <div className=" max-w-[1014px] mx-auto mt-[70px] sm:mt-[100px] lg:mt-[158px]">
+        <div className=" max-w-[1014px] mx-auto mt-5 sm:mt-[70px] md:mt-[100px] lg:mt-[158px]">
           <div
             data-aos="fade-right"
             className=" border border-white relative z-[1]  rounded-[20px] bg-[#09655A] sm:p-[62px_280px_62px_39px] p-[20px]"

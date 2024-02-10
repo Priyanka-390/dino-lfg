@@ -2,11 +2,11 @@ import React from "react";
 import aeroplane from "../assets/images/aeroplane.webp";
 const Herosec = () => {
   return (
-    <div className=" relative z-[1]">
+    <div className=" overflow-x-clip relative z-[1]">
       <div className="container max-w-[1164px] px-3 mx-auto">
-        <div className="flex flex-row flex-wrap -mx-3">
-          <div className="w-5/12 px-3">
-            <img src={aeroplane} alt="aero" className=" animate-airopalneheadre" />
+        <div className="flex sm:flex-row flex-col-reverse flex-wrap -mx-3">
+          <div className="sm:w-5/12 w-full px-3 justify-center items-center flex">
+            <img src={aeroplane} alt="aero" className=" justify-center flex w-full sm:max-w-[394px] max-w-[200px] items-center animate-airopalneheadre" />
           </div>
 
           <div

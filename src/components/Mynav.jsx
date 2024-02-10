@@ -62,7 +62,7 @@ const MyNav = () => {
           <li>
             <a
               onClick={hide}
-              href="#Faq"
+              href="#faq"
               className="text-black font-chewy text-[18px] font-normal leading-normal hover:after:w-[80%] after:mx-auto after:right-0 after:items-center after:w-0 after:absolute after:bg-[#FBA11D] after:h-[4px] relative after:left-[0] after:bottom-[0] after:rounded-[10px] after:transition-all after:duration-300 after:ease-linear"
             >
               FAQ
@@ -72,7 +72,7 @@ const MyNav = () => {
             <a
               onClick={hide}
               href=""
-              className="bg-[url(./assets/images/joinbtnbg.webp)] bg-cover bg-no-repeat text-black font-chewy text-[18px] font-normal leading-normal px-9 pt-[11px] pb-[20px]"
+              className="bg-[url(./assets/images/joinbtnbg.webp)] bg-cover bg-no-repeat text-black font-chewy text-[18px] font-normal leading-normal px-10 pt-[11px] pb-[20px]"
             >
               Join Now
             </a>

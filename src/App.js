@@ -45,7 +45,7 @@ function App() {
         <img
           src={scatredbike}
           alt="standbike"
-          className=" animate-movebike absolute z-[-1] bottom-[10%] right-[3%]"
+          className=" animate-movebike absolute z-[-1] sm:bottom-[10%] bottom-[7%] right-[3%]"
         />
       </div>
       <About />

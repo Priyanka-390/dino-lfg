@@ -7,7 +7,7 @@ import {
 import Faqlayer1 from "../assets/images/faqlayer.webp";
 function Icon({ id, open }) {
   return (
-    <div className="relative ">
+    <div className="relative overflow-x-clip ">
       <svg
         className={`${
           id === open ? "rotate-180" : "rotate-0"
@@ -39,7 +39,7 @@ function Faq() {
   const handleOpen = (value) => setOpen(open === value ? 0 : value);
 
   return (
-    <div id="faq" className="relative">
+    <div id="faq" className="relative overflow-x-clip">
       <div className="max-w-[1140px] mx-auto px-3  lg:pt-[310px] md:pt-[200px] sm:pt-[150px] pt-[100px]">
         <h2 className="sm:text-[64px] text-[40px] leading-[132%] text-center font-normal font-chewy text-white lg:mb-[61px] mb-[35px]">
           FAQs
