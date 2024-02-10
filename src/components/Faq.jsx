@@ -50,7 +50,7 @@ function Faq() {
           className=" mx-auto relative max-w-[800px] px-2 "
         >
           <Accordion
-            className={`border-[#C5C5C5] border mb-4 rounded-full p-3 sm:pt-[30px] sm:pb-[27px] sm:ps-[26px] ${
+            className={`border-[#C5C5C5] bg-[#09655A] border mb-4 rounded-full p-3 sm:pt-[30px] sm:pb-[27px] sm:ps-[26px] ${
               open === 1 ? "rounded-[26px] sm:rounded-[45px] " : "rounded-full"
             }`}
             open={open === 1}
@@ -69,7 +69,7 @@ function Faq() {
             </AccordionBody>
           </Accordion>
           <Accordion
-            className={`border-[#C5C5C5] border mb-4 overflow-hidden rounded-full p-3 sm:pt-[30px] sm:pb-[27px] sm:ps-[26px] ${
+            className={`border-[#C5C5C5] bg-[#09655A] border mb-4 overflow-hidden rounded-full p-3 sm:pt-[30px] sm:pb-[27px] sm:ps-[26px] ${
               open === 2 ? "rounded-[26px] sm:rounded-[45px]" : "rounded-full"
             }`}
             open={open === 2}
@@ -89,7 +89,7 @@ function Faq() {
             </AccordionBody>
           </Accordion>
           <Accordion
-            className={`border-[#C5C5C5] border mb-4 rounded-full p-3 sm:pt-[30px] sm:pb-[27px] sm:ps-[26px] ${
+            className={`border-[#C5C5C5] bg-[#09655A] border mb-4 rounded-full p-3 sm:pt-[30px] sm:pb-[27px] sm:ps-[26px] ${
               open === 3 ? "rounded-[26px] sm:rounded-[45px]" : "rounded-full"
             }`}
             open={open === 3}
@@ -108,7 +108,7 @@ function Faq() {
             </AccordionBody>
           </Accordion>
           <Accordion
-            className={`border-[#C5C5C5] border mb-4 rounded-full p-3 sm:pt-[30px] sm:pb-[27px] sm:ps-[26px] ${
+            className={`border-[#C5C5C5] bg-[#09655A] border mb-4 rounded-full p-3 sm:pt-[30px] sm:pb-[27px] sm:ps-[26px] ${
               open === 4 ? "rounded-[26px] sm:rounded-[45px]" : "rounded-full"
             }`}
             open={open === 4}
@@ -127,7 +127,7 @@ function Faq() {
             </AccordionBody>
           </Accordion>
           <Accordion
-            className={`border-[#C5C5C5] border mb-4 rounded-full p-3 sm:pt-[30px] sm:pb-[27px] sm:ps-[26px] ${
+            className={`border-[#C5C5C5] bg-[#09655A] border mb-4 rounded-full p-3 sm:pt-[30px] sm:pb-[27px] sm:ps-[26px] ${
               open === 5 ? "rounded-[26px] sm:rounded-[45px]" : "rounded-full"
             }`}
             open={open === 5}
