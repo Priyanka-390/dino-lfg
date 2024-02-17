@@ -16,7 +16,7 @@ const Roadmap = () => {
         <h2
           data-aos="fade-down"
           data-aos-duration="1000"
-          className=" text-[64px] text-white text-center font-chewy leading-[83px]"
+          className=" md:text-[64px] sm:text-[50px] text-5xl text-white text-center font-chewy leading-[83px]"
         >
           Roadmap
         </h2>

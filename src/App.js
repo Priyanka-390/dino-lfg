@@ -40,12 +40,12 @@ function App() {
         <img
           src={standbike}
           alt="standbike"
-          className=" animate-headerbike2 absolute z-[-1] bottom-[18%] right-[32%]"
+          className=" animate-headerbike2 absolute z-[-1] sm:bottom-[18%] bottom-[6%] right-[32%]"
         />
         <img
           src={scatredbike}
           alt="standbike"
-          className=" animate-movebike absolute z-[-1] sm:bottom-[10%] bottom-[7%] right-[3%]"
+          className=" animate-movebike absolute z-[-1] sm:block hidden sm:bottom-[10%] bottom-[7%] right-[3%]"
         />
       </div>
       <About />

@@ -5,8 +5,8 @@ const Herosec = () => {
     <div className=" overflow-x-clip relative z-[1]">
       <div className="container max-w-[1164px] px-3 mx-auto">
         <div className="flex sm:flex-row flex-col-reverse flex-wrap -mx-3">
-          <div className="sm:w-5/12 w-full px-3 justify-center items-center flex">
-            <img src={aeroplane} alt="aero" className=" justify-center flex w-full sm:max-w-[394px] max-w-[200px] items-center animate-airopalneheadre" />
+          <div className="sm:w-5/12 w-full px-3 justify-center items-center flex max-sm:mt-5">
+            <img src={aeroplane} alt="aero" className=" justify-center flex w-full sm:max-w-[394px] max-w-[300px] items-center" />
           </div>
 
           <div
