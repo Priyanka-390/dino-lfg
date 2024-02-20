@@ -26,13 +26,13 @@ const About = () => {
           className="font-normal  text-center sm:leading-[37px] drop-shadow-[0px_1.337px_0px_#000] md:text-[64px] sm:text-[50px] text-5xl"
         >
           <span className=" font-chewy text-white leading-[83px]">About</span>
-          <span className="text-[#FBA11D] leading-[66px] ff-lucky"> D</span>
-          <span className="text-[#23AAAC] leading-[66px] ff-lucky">i</span>
-          <span className="text-[#D45B07] leading-[66px] ff-lucky">n</span>
-          <span className="text-[#8EC627] leading-[66px] ff-lucky">o</span>
-          <span className="text-[#FCCA2B] leading-[66px] ff-lucky">L</span>
-          <span className="text-[#8F78D2] leading-[66px] ff-lucky">F</span>
-          <span className="text-[#8EC627] leading-[66px] ff-lucky">G</span>
+          <span className="text-[#FBA11D] sm:leading-[66px] ff-lucky"> D</span>
+          <span className="text-[#23AAAC] sm:leading-[66px] ff-lucky">i</span>
+          <span className="text-[#D45B07] sm:leading-[66px] ff-lucky">n</span>
+          <span className="text-[#8EC627] sm:leading-[66px] ff-lucky">o</span>
+          <span className="text-[#FCCA2B] sm:leading-[66px] ff-lucky">L</span>
+          <span className="text-[#8F78D2] sm:leading-[66px] ff-lucky">F</span>
+          <span className="text-[#8EC627] sm:leading-[66px] ff-lucky">G</span>
         </h2>
         <p
           data-aos="fade-down"

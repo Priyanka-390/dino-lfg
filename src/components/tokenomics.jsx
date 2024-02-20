@@ -47,7 +47,7 @@ const Tokenomics = () => {
         <div className="  relative z-[2]">
           <div
             data-aos="zoom-in-up"
-            className=" relative max-w-[589px] mx-auto z-[1] mt-[50px] sm:mt-[100px] lg:mt-[166px]"
+            className=" relative max-w-[589px] mx-auto z-[1] mt-[30px] sm:mt-[100px] lg:mt-[166px]"
           >
             <img
               src={chart}
